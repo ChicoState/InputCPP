@@ -1,10 +1,11 @@
+#include <iostream>
 using namespace std;
 
 int main()
 {
   int num1;
   int num2;
-  bool repeat = false;
+  bool repeat=false;
 
   do
   {
@@ -13,15 +14,19 @@ int main()
     cout<<"Enter another whole number: ";
     cin>>num2;
 
-    if( num1 = num2 )
+    if(num1==num2)
     {
       cout<<"Numbers should be different!";
-      repeat = true;
+      repeat=true;
+    }
+    else
+    {
+      repeat=false;
     }
   }while(repeat);
 
   cout<<"Increasing order: ";
-  if( num1 < num2 )
+  if(num1<num2)
   {
     cout<<num1<<" "<<num2<<endl;
   }
