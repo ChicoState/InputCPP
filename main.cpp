@@ -9,6 +9,7 @@ int main()
 
   do
   {
+    repeat = false;
     cout<<"Enter a whole number: \n";
     cin>>num1;
     cout<<"Enter another whole number: \n";
@@ -31,6 +32,5 @@ int main()
     cout<<num2<<" "<<num1<<endl;
   }
 
- return 0;
+  return 0;
 }
-
