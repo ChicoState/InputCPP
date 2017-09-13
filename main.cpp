@@ -1,3 +1,4 @@
+#include <iostream>
 using namespace std;
 
 int main()
@@ -13,11 +14,13 @@ int main()
     cout<<"Enter another whole number: ";
     cin>>num2;
 
-    if( num1 = num2 )
+    if( num1 == num2 )
     {
       cout<<"Numbers should be different!";
       repeat = true;
     }
+    else
+        repeat = false;
   }while(repeat);
 
   cout<<"Increasing order: ";
