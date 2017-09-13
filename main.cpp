@@ -19,7 +19,8 @@ int main()
       cout<<"Numbers should be different!\n";
       repeat = true;
     }
-    else {
+    else 
+    {
       repeat = false;
     }
   }while(repeat);
