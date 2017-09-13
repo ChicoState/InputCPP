@@ -1,3 +1,4 @@
+#include<iostream>
 using namespace std;
 
 int main()
@@ -8,12 +9,16 @@ int main()
 
   do
   {
+    cout << "Enter a whole number: \n";
+    cin >> num1;
+    cout << "Enter another whole number: \n";
+    cin >> num2;
     cout<<"Enter a whole number: ";
     cin>>num1;
     cout<<"Enter another whole number: ";
     cin>>num2;
 
-    if( num1 = num2 )
+    if( num1 == num2 )
     {
       cout<<"Numbers should be different!";
       repeat = true;
