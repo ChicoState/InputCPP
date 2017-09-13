@@ -20,6 +20,10 @@ int main()
       cout<<"Numbers should be different!\n";
       repeat = true;
     }
+    else
+    {
+      repeat = false;
+    }
   }while(repeat);
 
   cout<<"Increasing order: ";
