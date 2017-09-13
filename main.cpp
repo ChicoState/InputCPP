@@ -9,12 +9,11 @@ int main()
 
   do
   {
-    repeat = false;
     cout<<"Enter a whole number: \n";
     cin>>num1;
     cout<<"Enter another whole number: \n";
     cin>>num2;
-
+    repeat = false;
     if( num1 == num2 )
     {
       cout<<"Numbers should be different!\n";
