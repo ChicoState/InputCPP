@@ -1,3 +1,4 @@
+#include <iostream>
 using namespace std;
 
 int main()
@@ -12,8 +13,8 @@ int main()
     cin>>num1;
     cout<<"Enter another whole number: \n";
     cin>>num2;
-
-    if( num1 = num2 )
+    repeat = false;
+    if( num1 == num2 )
     {
       cout<<"Numbers should be different!\n";
       repeat = true;
@@ -32,4 +33,3 @@ int main()
 
  return 0;
 }
-
