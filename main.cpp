@@ -11,7 +11,7 @@ int main()
     std::cin>>num1;
     std::cout<<"Enter another whole number: \n";
     std::cin>>num2;
-
+    
     if( num1 == num2 )
     {
       std::cout<<"Numbers should be different!\n";
