@@ -1,24 +1,24 @@
+#include <iostream>
+
 using namespace std;
 
 int main()
 {
-  int num1;
-  int num2;
-  bool repeat = false;
-
-  do
+  int num1 = 0;
+  int num2 = 0;
+  
+  while(num1 == num2)
   {
     cout<<"Enter a whole number: \n";
     cin>>num1;
     cout<<"Enter another whole number: \n";
     cin>>num2;
 
-    if( num1 = num2 )
+    if( num1 == num2 )
     {
       cout<<"Numbers should be different!\n";
-      repeat = true;
     }
-  }while(repeat);
+  }
 
   cout<<"Increasing order: ";
   if( num1 < num2 )
