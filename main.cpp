@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
   int num1 = 0;
@@ -9,25 +7,25 @@ int main()
   
   while(num1 == num2)
   {
-    cout<<"Enter a whole number: \n";
-    cin>>num1;
-    cout<<"Enter another whole number: \n";
-    cin>>num2;
+    std::cout<<"Enter a whole number: \n";
+    std::cin>>num1;
+    std::cout<<"Enter another whole number: \n";
+    std::cin>>num2;
 
     if( num1 == num2 )
     {
-      cout<<"Numbers should be different!\n";
+      std::cout<<"Numbers should be different!\n";
     }
   }
 
-  cout<<"Increasing order: ";
+  std::cout<<"Increasing order: ";
   if( num1 < num2 )
   {
-    cout<<num1<<" "<<num2<<endl;
+    std::cout<<num1<<" "<<num2<<std::endl;
   }
   else
   {
-    cout<<num2<<" "<<num1<<endl;
+    std::cout<<num2<<" "<<num1<<std::endl;
   }
 
  return 0;
