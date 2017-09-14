@@ -1,4 +1,5 @@
 using namespace std;
+#include <iostream>
 
 int main()
 {
@@ -17,6 +18,10 @@ int main()
     {
       cout<<"Numbers should be different!\n";
       repeat = true;
+    }
+    else
+    {
+	    repeat = false;
     }
   }while(repeat);
 
