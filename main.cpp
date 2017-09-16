@@ -22,7 +22,7 @@ int main()
   }while(repeat);
 
   cout<<"Increasing order: ";
-  if( num1 < num2 )
+  if( num1 <= num2 )
   {
     cout<<num1<<" "<<num2<<endl;
   }
